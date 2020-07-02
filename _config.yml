@@ -1,1 +1,40 @@
-theme: jekyll-theme-cayman
+title: ethioblog
+description: > # this means to ignore newlines until "baseurl:"
+  Ethiopia
+permalink: ':title/'
+baseurl: "/eblog" # the subpath of your site, e.g. /blog
+url: "https://wzewdie.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: ethioblog # add your name
+author-img: gonder.PNG # add your photo
+about-author: About anything and everything. # add description
+social-twitter: ethioblog # add your Twitter handle
+social-facebook: # add your Facebook handle
+social-github:  # add your Github handle
+social-linkedin: # add your Linkedin handle
+social-email: ethioblog@gmail.com # add your Email address
+
+# Disqus
+discus-identifier: ethioblog # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+integration_spreadsheet_key: 1GqInEgZOLG1iSGv_x4cUQsu2JeSvPZh3sbBGs86-7n4
+
+github_user: WZewdie
+github_repo: eblog
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
